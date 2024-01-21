@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mst-algorithm
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: mst-algorithm
+  template:
+    metadata:
+      labels:
+        app: mst-algorithm
+    spec:
+      containers:
+      - name: mst-algorithm
+        image: enmshtuz/mst-algorithm:latest 
+        command: ["./prim_mst"] 
