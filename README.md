@@ -10,7 +10,7 @@ Ensure you have the following tools installed on your local machine before proce
 - [Terraform](https://www.terraform.io/downloads.html)
 - [Docker](https://docs.docker.com/get-docker/)
 - [Kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) (for Kubernetes)
-- [eksctl](https://eksctl.io/getting-started/) (for EKS cluster setup)
+- [eksctl](https://eksctl.io/getting-started/) (for EKS cluster setup
 
 
 
